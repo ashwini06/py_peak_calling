@@ -1,6 +1,8 @@
 def py_peak_calling(bedgraph, threshold, min_length, inter_peak_distance, max_length=10000,
                    generate_ID=True, output_name = None):
     """
+    Written by Pete Skene (peteskene@gmail.com). Free for academic use.
+    
     - need to install a more up-to-date varsion of bedtools before invoking Jupyter
       type: module load bedtools/2.21.0
     - (1) filters bedgraph based on threshold; (2) merges adjacent basepairs that are over threshold;
